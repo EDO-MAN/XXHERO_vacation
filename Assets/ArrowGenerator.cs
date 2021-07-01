@@ -26,12 +26,6 @@ public class ArrowGenerator : MonoBehaviour
             //Produce(px);
         }
     }
-    //void Produce()
-    //{
-    //        GameObject go = Instantiate(arrawPrefab) as GameObject;
-    //        go.transform.position = new Vector2(-13, px);
-      
-    //}
     IEnumerator Produce(int px)
     {
         yield return new WaitForSeconds(0.7f);
