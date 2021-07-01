@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 720719a1bb1d4bd4eb7941c05c0ca340
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 835503659739696025
+    second: knife_throw_atr_0
+  - first:
+      213: 7761960257620918209
+    second: knife_throw_atr_1
+  - first:
+      213: -2281121641861246669
+    second: knife_throw_atr_2
+  - first:
+      213: 6101439198149032689
+    second: knife_throw_atr_3
+  - first:
+      213: 3714095568705361913
+    second: knife_throw_atr_4
+  - first:
+      213: -1226210658795613660
+    second: knife_throw_atr_5
+  - first:
+      213: 4172966120217380040
+    second: knife_throw_atr_6
+  - first:
+      213: 9184613486663620453
+    second: knife_throw_atr_7
+  - first:
+      213: 4892138760504174169
+    second: knife_throw_atr_8
+  - first:
+      213: -362942050091128214
+    second: knife_throw_atr_9
+  - first:
+      213: -5279247780558327270
+    second: knife_throw_atr_10
+  - first:
+      213: 2012075840193808989
+    second: knife_throw_atr_11
+  - first:
+      213: 6603497643559817008
+    second: knife_throw_atr_12
+  - first:
+      213: -248910588081170651
+    second: knife_throw_atr_13
+  - first:
+      213: 7426300537642671286
+    second: knife_throw_atr_14
+  - first:
+      213: -539204877035874324
+    second: knife_throw_atr_15
+  - first:
+      213: -4882567131123885707
+    second: knife_throw_atr_16
+  - first:
+      213: -8914607250296530354
+    second: knife_throw_atr_17
+  - first:
+      213: 5928814846020132690
+    second: knife_throw_atr_18
+  - first:
+      213: 7778247795633297976
+    second: knife_throw_atr_19
+  - first:
+      213: -8421280215371159671
+    second: knife_throw_atr_20
+  - first:
+      213: 2340952027771917766
+    second: knife_throw_atr_21
+  - first:
+      213: -2230407667385967225
+    second: knife_throw_atr_22
+  - first:
+      213: -5192564157282240478
+    second: knife_throw_atr_23
+  - first:
+      213: -1905444656170666435
+    second: knife_throw_atr_24
+  - first:
+      213: -7451032366054697811
+    second: knife_throw_atr_25
+  - first:
+      213: -3724643234098093168
+    second: knife_throw_atr_26
+  - first:
+      213: -7887773772772774217
+    second: knife_throw_atr_27
+  - first:
+      213: -5663059984849708355
+    second: knife_throw_atr_28
+  - first:
+      213: 1042275650402289475
+    second: knife_throw_atr_29
+  - first:
+      213: -3026136669213956228
+    second: knife_throw_atr_30
+  - first:
+      213: 619885328269648762
+    second: knife_throw_atr_31
+  - first:
+      213: -8319573234209944579
+    second: knife_throw_atr_32
+  - first:
+      213: 7679207500120142870
+    second: knife_throw_atr_33
+  - first:
+      213: 622887991853296358
+    second: knife_throw_atr_34
+  - first:
+      213: -651779215846681340
+    second: knife_throw_atr_35
+  - first:
+      213: 8053461946640817277
+    second: knife_throw_atr_36
+  - first:
+      213: 1029446825335243805
+    second: knife_throw_atr_37
+  - first:
+      213: -1248295446509506586
+    second: knife_throw_atr_38
+  - first:
+      213: 5298379624064460742
+    second: knife_throw_atr_39
+  - first:
+      213: -8344427460392901074
+    second: knife_throw_atr_40
+  - first:
+      213: -3651422584165507436
+    second: knife_throw_atr_41
+  - first:
+      213: 6109514493993049759
+    second: knife_throw_atr_42
+  - first:
+      213: 45016294069728418
+    second: knife_throw_atr_43
+  - first:
+      213: 9053916419322245825
+    second: knife_throw_atr_44
+  - first:
+      213: -5060234367085179923
+    second: knife_throw_atr_45
+  - first:
+      213: 5625967456335798696
+    second: knife_throw_atr_46
+  - first:
+      213: 6255819555019604396
+    second: knife_throw_atr_47
+  - first:
+      213: 7108917964736470952
+    second: knife_throw_atr_48
+  - first:
+      213: -7839351834682423241
+    second: knife_throw_atr_49
+  - first:
+      213: -7128625282970286981
+    second: knife_throw_atr_50
+  - first:
+      213: -449166251649604499
+    second: knife_throw_atr_51
+  - first:
+      213: -4045857675971521596
+    second: knife_throw_atr_52
+  - first:
+      213: 612369402196390178
+    second: knife_throw_atr_53
+  - first:
+      213: -7732102296548850863
+    second: knife_throw_atr_54
+  - first:
+      213: 8798189088683069793
+    second: knife_throw_atr_55
+  - first:
+      213: 9205890358024878849
+    second: knife_throw_atr_56
+  - first:
+      213: -2970890000597474929
+    second: knife_throw_atr_57
+  - first:
+      213: -3459411488442990565
+    second: knife_throw_atr_58
+  - first:
+      213: 4749244974395947605
+    second: knife_throw_atr_59
+  - first:
+      213: 865599378554450022
+    second: knife_throw_atr_60
+  - first:
+      213: -5966282319576816153
+    second: knife_throw_atr_61
+  - first:
+      213: 2427409052097107766
+    second: knife_throw_atr_62
+  - first:
+      213: -9060230417693798462
+    second: knife_throw_atr_63
+  - first:
+      213: -7934621132560653147
+    second: knife_throw_atr_64
+  - first:
+      213: -5130544790433655824
+    second: knife_throw_atr_65
+  - first:
+      213: 6602980814142884545
+    second: knife_throw_atr_66
+  - first:
+      213: -2129475404156067143
+    second: knife_throw_atr_67
+  - first:
+      213: 8697628733213841827
+    second: knife_throw_atr_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knife_throw_atr_0
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 443
+        width: 97
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc25fd62e489b00800000000000000
+      internalID: 835503659739696025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 442
+        width: 188
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfb13ccab508bb60800000000000000
+      internalID: 7761960257620918209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_4
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 444
+        width: 188
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7198add3e1b8330800000000000000
+      internalID: 3714095568705361913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_6
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 443
+        width: 171
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c40c47b39a59e930800000000000000
+      internalID: 4172966120217380040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 235
+        width: 184
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a244ed02296faf0800000000000000
+      internalID: -362942050091128214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 234
+        width: 179
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123d8e3d185cb6b0800000000000000
+      internalID: -5279247780558327270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_11
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 233
+        width: 279
+        height: 142
+      alignment: 9
+      pivot: {x: 0.717, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ac5e3f0545ceb10800000000000000
+      internalID: 2012075840193808989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_12
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 234
+        width: 103
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0387be1654ab50800000000000000
+      internalID: 6603497643559817008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 24
+        width: 81
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52796909321bb8cf0800000000000000
+      internalID: -248910588081170651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knife_throw_atr_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 23
+        width: 99
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcdb752ef48f0760800000000000000
+      internalID: 7426300537642671286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
