@@ -13,7 +13,7 @@ public class Movechar : MonoBehaviour
 
     public float movePower = 1.0f;
     public float jumpPower = 1.0f;
-    public GameObject Tutorialimg;
+    //public GameObject Tutorialimg;
     //bool isPause;
    
     Rigidbody2D rigid;
@@ -62,7 +62,7 @@ public class Movechar : MonoBehaviour
 
     void Start()
     {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
     }
     void Update()
     {
@@ -163,21 +163,21 @@ public class Movechar : MonoBehaviour
         Gizmos.DrawWireCube(pos.position, boxSize);
     }
 
-    public void TutorialBtn()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Tutorialimg.SetActive(false);
-            Time.timeScale = 1;
-        }
-        Tutorialimg.SetActive(false);
-        Time.timeScale = 1;
-    }
+    //public void TutorialBtn()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Space))
+    //    {
+    //        Tutorialimg.SetActive(false);
+    //        Time.timeScale = 1;
+    //    }
+    //    Tutorialimg.SetActive(false);
+    //    Time.timeScale = 1;
+    //}
     public void TakePlayerDamage(int damage)
     {
         Debug.Log(damage);
     }
-    public GameObject tile;
+    //public GameObject tile;
     //void TileMapOn()
     //{
     //    if (Input.GetKeyDown(KeyCode.H))

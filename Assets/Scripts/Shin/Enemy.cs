@@ -18,12 +18,12 @@ public class Enemy : MonoBehaviour
     private Slider Hp_slider;
 
     private int health = 200;
-    private int CurHp = 200;
+    //private int CurHp = 200;
 
-    public GameObject BlackScreen;
-    public GameObject tutorialout;
-    public Text talkText;
-    public GameObject talkobj;
+    //public GameObject BlackScreen;
+    //public GameObject tutorialout;
+    //public Text talkText;
+    //public GameObject talkobj;
 
     void Awake()
     {
@@ -47,19 +47,19 @@ public class Enemy : MonoBehaviour
         health -= damage;
         HandleHp();
 
-        if (health == 100)
-        {
-            Time.timeScale = 0;
-            talkobj.SetActive(true);
-            talkText.text = "살려줘";
-        }
+        //if (health == 100)
+        //{
+        //    Time.timeScale = 0;
+        //    talkobj.SetActive(true);
+        //    talkText.text = "살려줘";
+        //}
 
-        if (health <= 0)
-        {
-            Time.timeScale = 0;
-            BlackScreen.SetActive(true);
-            tutorialout.SetActive(false);
-        }
+        //if (health <= 0)
+        //{
+        //    Time.timeScale = 0;
+        //    BlackScreen.SetActive(true);
+        //    tutorialout.SetActive(false);
+        //}
     }
     public void HitSound()
     {
@@ -69,40 +69,40 @@ public class Enemy : MonoBehaviour
     public void WieldSound()
     {
         audioSrc.clip = wieldAudio;
-        audioSrc.volume = 0.2f;
+        audioSrc.volume = 0.5f;
         audioSrc.Play();
     }
     public void Finger1_Sound()
     {
         audioSrc.clip = finger1_Audio;
-        audioSrc.volume = 0.2f;
+        audioSrc.volume = 0.5f;
         audioSrc.Play();
     }
     public void Finger2_Sound()
     {
         audioSrc.clip = finger2_Audio;
-        audioSrc.volume = 0.2f;
+        audioSrc.volume = 0.5f;
         audioSrc.Play();
     }
     public void tailSound()
     {
         audioSrc.clip = tailAudio;
-        audioSrc.volume = 0.2f;
+        audioSrc.volume = 0.5f;
         audioSrc.Play();
     }
-    public void Onbtn1()
-    { 
+    //public void Onbtn1()
+    //{ 
         
-        Time.timeScale = 1;
-        talkobj.SetActive(false);
+    //    Time.timeScale = 1;
+    //    talkobj.SetActive(false);
        
-    }
-    public void Onbtn2()
-    {
-        GetComponent<Animator>().SetBool("2Pmoving",true);
-        Time.timeScale = 1;
-        talkobj.SetActive(false);
-    }
+    //}
+    //public void Onbtn2()
+    //{
+    //    GetComponent<Animator>().SetBool("2Pmoving",true);
+    //    Time.timeScale = 1;
+    //    talkobj.SetActive(false);
+    //}
     //플레이어 방향
     public Transform player;
     public bool isFlipped = false;
@@ -153,150 +153,6 @@ public class Enemy : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(enemy_Finger.position, FingerSize);
     }
-    //
-    //IEnumerator Spear_Wave()
-    //{
-    //    SpearEnergy wave = ObjectPool.SpearGetObject();
-       
-
-    //    wave.transform.position = new Vector3(0.44f, 0f , 0);
-        
-    //    //wave = new SpearEnergy();//메모리에 새로 생성.
-    //    yield return new WaitForSeconds(1.0f);
-    //}
-    
-
-    //IEnumerator Tail_Wave()
-    //{
-    //    Vector2 vec = playerTransform.position;
-    //    float x = vec.x;
-    //    Tail_Wave wave = ObjectPool.TailGetObject();
-    //    if (vec.x <= -5)
-    //    {
-    //        wave.transform.position = new Vector3(x + 1.238f, -0.66f, 0);
-    //    }
-    //    else if (vec.x >= 0.35f)
-    //    {
-    //        wave.transform.position = new Vector3(x + 0.238f - 1.0f, -0.66f, 0);
-    //    }
-    //    else
-    //    {
-    //        wave.transform.position = new Vector3(x + 0.238f, -0.66f, 0);
-    //    }
-    //        yield return new WaitForSeconds(1.0f);
-    //}
-
-    //IEnumerator Tail_Effect()
-    //{
-    //    Vector2 vec = playerTransform.position;
-    //    float x = vec.x;
-
-    //    Tail_Effect effect = ObjectPool.EffectGetObject();
-    //    if (vec.x <= -5)
-    //    {
-    //        effect.transform.position = new Vector3(x + 1.1f, -0.56f, 0);
-    //    }
-    //    else if (vec.x >= 0.35f)
-    //    {
-    //        effect.transform.position = new Vector3(x - 0.9f, -0.56f, 0);
-    //    }
-    //    else
-    //    {
-    //        effect.transform.position = new Vector3(x + 0.1f, -0.56f, 0);
-    //    }
-    //    StartCoroutine(Tail_Effect_Destory(effect));
-    //    yield return new WaitForSeconds(5.0f);
-    //}
-
-    //IEnumerator Finger1_Wave()
-    //{
-    //    Finger_Wave1 wave = ObjectPool.Finger1GetObject();
-    //    wave.transform.position = new Vector3(0, -0.5f, 0);
-    //    //wave = new SpearEnergy();//메모리에 새로 생성.
-    //    yield return new WaitForSeconds(1.0f);
-    //}
-
-    //IEnumerator Finger1_Effect()
-    //{
-    //    Finger1_Effect effect = ObjectPool.f1EffectGetObject();
-    //    effect.transform.position = new Vector3(-2.69f, -0.5f, 0);
-
-    //    StartCoroutine(Effect_Destory(effect) );
-    //    yield return new WaitForSeconds(1.0f);
-    //}
-
-    //IEnumerator Finger2_Wave()
-    //{
-    //    Finger_Wave2 wave = ObjectPool.Finger2GetObject();
-    //    wave.transform.position = new Vector3(-2.55f, -3.58f, 0);
-    //    //wave = new SpearEnergy();//메모리에 새로 생성.
-    //    yield return new WaitForSeconds(1.0f);
-    //}
-
-    //IEnumerator Finger2_Effect()
-    //{
-    //    Finger2_Effect effect = ObjectPool.f2EffectGetObject();
-    //    effect.transform.position = new Vector3(-2.54f, -0.52f, 0);
-
-    //    StartCoroutine(Effect_Destory(effect));
-    //    yield return new WaitForSeconds(1.0f);
-    //}
-
-    //IEnumerator Tail_Effect_Destory(Tail_Effect war)
-    //{
-    //    SpriteRenderer spr = war.GetComponent<SpriteRenderer>();
-
-    //    Color temColor = spr.color;
-    //    float a = spr.color.a;
-
-    //    yield return null;
-
-    //    while (a > 0.01f)
-    //    {
-    //        spr.color = new Color(temColor.r, temColor.g, temColor.b, a);
-    //        yield return null;
-    //        a -= Time.deltaTime;
-
-    //    }
-    //    ObjectPool.EnQueueObject(war);
-    //}
-
-    //IEnumerator Effect_Destory(Finger1_Effect war)
-    //{
-    //    SpriteRenderer spr = war.GetComponent<SpriteRenderer>();
-    //    Color temColor = spr.color;
-    //    float a = spr.color.a;
-
-    //    yield return null;
-
-    //    while (a > 0.01f)
-    //    {
-    //        spr.color = new Color(temColor.r, temColor.g, temColor.b, a);
-    //        yield return null;
-    //        a -= Time.deltaTime;
-
-    //    }
-    //    ObjectPool.EnQueueObject(war);
-    //}
-
-    //IEnumerator Effect_Destory(Finger2_Effect war)
-    //{
-    //    SpriteRenderer spr = war.GetComponent<SpriteRenderer>();
-    //    Color temColor = spr.color;
-    //    float a = spr.color.a;
-
-    //    yield return null;
-
-    //    while (a > 0.01f)
-    //    {
-    //        spr.color = new Color(temColor.r, temColor.g, temColor.b, a);
-    //        yield return null;
-    //        a -= Time.deltaTime;
-
-    //    }
-    //    ObjectPool.EnQueueObject(war);
-    //}
-
 
     IEnumerator Think()
     {

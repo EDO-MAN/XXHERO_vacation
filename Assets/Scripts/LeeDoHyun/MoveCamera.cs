@@ -9,9 +9,10 @@ public class MoveCamera : MonoBehaviour
 
     public Vector2 center;
     public Vector2 size;
-    Transform camLimit;
+    //Transform camLimit;
     float height;
     float width;
+
     void Start()
     {
         height = Camera.main.orthographicSize;

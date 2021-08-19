@@ -1,0 +1,53 @@
+
+01.attack_A えいっ！
+02.attack_B やぁ！
+03.attack_C はい！
+04.deffend_A うっ！
+05.deffend_B はっ！
+06.jump とぅ！
+07.special_Attack_A いっけぇぇ！
+08.win やったぁ！
+09.discourage はぁ・・・
+----------------------------------------
+10.attack_A1　えいっ！
+11.attack_A2 えいっ！！
+12.attack_A3 えいっっ！！！
+13.attack_B1 やっ！
+14.attack_B2 やっ！！
+15.attack_B3 やっっ！！！
+16.attack_C1 はいっ！
+17.attack_C2 はいっ！！
+18.attack_C3 はいっっ！！！
+19.deffend_A1 うっ！
+20.deffend_A2 うっ！！
+21.deffend_A3 うっっ！！！
+22.deffend_B1 はっ！
+23.deffend_B2 はっ！！
+24.deffend_B3 はっっ！！！
+25.jump_A1 とぅ！
+26.jump_A2 とぉぅ！！！
+27.jump_B1 とぅ！
+28.jump_B2 とぉぅ！！！
+29.discourage_A1 くっ！
+30.discourage_A2 くっっ！
+31.discourage_A3 くっっっ！！！
+32.win_A1(yeah!) やった！
+33.win_A2(yeah!) やった！！
+34.win_A3(yeah!) やったぁぁ！！！
+35.special_attack_A1(Go!) いけ！
+36.special_attack_A2(Go!) いっけぇ！
+37.special_attack_A3(Go!) いっけぇぇ！！！
+38.damn_A1 くっそぉぉ・・・
+39.damn_A2 くっそぉぉ・・・
+40.laugh_A1 ふっ
+41.laugh_A2 うふふ
+42.laugh_A3 あはは
+43.humph ふん！
+---------------------------------------
+44.special_attack_X1 "This is my critical hit!" 本気をお見舞いしてやるわ！！
+45.special_attack_X2 "This is the end." これで終わりよ！
+46.special_attack_X3 "I found your weaknesses." 弱点はここね
+47.special_attack_X4 "I never forgive you!" 絶対に許さない
+48.special_attack_X5 "I still fight." まだ立てるわ・・
+49.special_attack_X6 "W..Why...?" どうしてぇぇ・・・
+50.special_attack_X7 "Good-bye." もう眠りなさい・・・！
