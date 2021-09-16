@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Finger_motion
+  m_Name: FingerAttackEnemy
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,48 +20,45 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1422457900439188039, guid: 2788492a72766f0479966af2ce74d184,
-        type: 3}
-    - time: 0.083333336
       value: {fileID: 2845007282673619258, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.16666667
+    - time: 0.083333336
       value: {fileID: 5200680179176842423, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.25
+    - time: 0.16666667
       value: {fileID: 5290677417930032074, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.33333334
+    - time: 0.25
       value: {fileID: 3608660235996381253, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.41666666
+    - time: 0.33333334
       value: {fileID: -7185181091402471474, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.5
+    - time: 0.41666666
       value: {fileID: -181021708499999296, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.75
+    - time: 0.5
       value: {fileID: -1976263452029893530, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.8333333
+    - time: 0.5833333
       value: {fileID: 7715445987820969278, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 0.9166667
+    - time: 0.6666667
       value: {fileID: -4225191659158311784, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 1
+    - time: 0.75
       value: {fileID: -6555964603105811576, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 1.0833334
+    - time: 0.8333333
       value: {fileID: -6134465444440439599, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 1.1666666
+    - time: 0.9166667
       value: {fileID: 3146091424348159850, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 1.25
+    - time: 1
       value: {fileID: -503753659919620388, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
-    - time: 1.3333334
+    - time: 1.0833334
       value: {fileID: 8488738664436657791, guid: 2788492a72766f0479966af2ce74d184,
         type: 3}
     attribute: m_Sprite
@@ -83,7 +80,6 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1422457900439188039, guid: 2788492a72766f0479966af2ce74d184, type: 3}
     - {fileID: 2845007282673619258, guid: 2788492a72766f0479966af2ce74d184, type: 3}
     - {fileID: 5200680179176842423, guid: 2788492a72766f0479966af2ce74d184, type: 3}
     - {fileID: 5290677417930032074, guid: 2788492a72766f0479966af2ce74d184, type: 3}
@@ -103,12 +99,12 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.4166666
+    m_StopTime: 1.1666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -124,14 +120,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.5833333
-    functionName: Finger1_Sound
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.8333333
-    functionName: Finger2_Sound
+    functionName: Finger_Attack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

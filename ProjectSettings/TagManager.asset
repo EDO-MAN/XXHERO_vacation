@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Enemy
+  - FallFloor
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Enemy
   - PlayerDamaged
   - Floor
-  - 
+  - FallFloor
   - 
   - 
   - 
@@ -48,4 +49,7 @@ TagManager:
     locked: 0
   - name: 2
     uniqueID: 2921479849
+    locked: 0
+  - name: AboveObject
+    uniqueID: 2263822595
     locked: 0

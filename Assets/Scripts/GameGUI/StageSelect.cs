@@ -8,6 +8,6 @@ public class StageSelect : MonoBehaviour
 {
    public void OnStart()
     {
-        SceneManager.LoadScene("Testscene_1");
+        SceneManager.LoadScene("Webtoon_1");
     }
 }

@@ -12,12 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/StageSelectScene.unity
     guid: 63bd780834d62b74bb2a0428fa9d9db6
   - enabled: 1
-    path: Assets/Scenes/Testscene_1.unity
+    path: Assets/Scenes/Webtoon_1.unity
     guid: 414bb8a6608ada0459fdefbcaf79b313
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 5d6469d59668d154286405c46ef63085
   - enabled: 1
     path: Assets/Scenes/NewPlaying.unity
     guid: 841efcc40c259d246a0bb895ea975606
-  - enabled: 1
-    path: Assets/Scenes/Loading.unity
-    guid: 5d6469d59668d154286405c46ef63085
   m_configObjects: {}

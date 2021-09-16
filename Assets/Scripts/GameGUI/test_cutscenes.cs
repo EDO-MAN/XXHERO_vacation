@@ -24,9 +24,11 @@ public class test_cutscenes : MonoBehaviour
             Debug.Log("스페이스바");
             if (webtoon_spt.Length == count)
             {
-                LoadingScript.LoadScene("NewPlaying");
+                LoadingSceneController.LoadScene("NewPlaying");
+                //LoadingScript.LoadScene("Loading");
                 //SceneManager.LoadScene("NewPlaying");
             }
         }
+
     }  
 }
